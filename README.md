@@ -22,8 +22,8 @@ just add a `latex` folder with a template and master file.
 
 Have a look at indicative [latex template](https://github.com/mibook/kallipos/issues/2) and [output PDF](https://github.com/mibook/kallipos/issues/1)
 
-It is strongly adviced to use the official latex install, 
-instead of the latex version in your *nix distribution.
+It is strongly adviced to use the [official latex install](https://www.tug.org/texlive/quickinstall.html), 
+instead of the latex version in your *nix distribution, and install packages as needed with `tlmgr`
 
 ## Source files preprocessing
 
