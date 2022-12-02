@@ -14,8 +14,16 @@ which is a git submodule, ie a link to another repo.
 There is a bash script `make_latex.sh` which can be modified
 in order to prepare the desired output format.
 
+The bash file has been prepared for MacOS X cli.
+It has also been tested succesfully in Arch Linux by removing the `sed` command
+
 In order to prepare a PDF with the LaTeX toolchain,
 just add a `latex` folder with a template and master file.
+
+Have a look at indicative [latex template](https://github.com/mibook/kallipos/issues/2) and [output PDF](https://github.com/mibook/kallipos/issues/1)
+
+It is strongly adviced to use the official latex install, 
+instead of the latex version in your *nix distribution.
 
 ## Source files preprocessing
 
