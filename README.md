@@ -11,6 +11,8 @@ Files are edited at their respective repos and then imported here:
 The source files are read from the `text` folder,
 which is a git submodule, ie a link to another repo.
 
+You might need to edit the `figure` lua filter to point at the current folder `.`
+
 There is a bash script `make_latex.sh` which can be modified
 in order to prepare the desired output format.
 
